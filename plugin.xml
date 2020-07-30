@@ -19,6 +19,7 @@
 
     <preference name="APP_ID" />
     <preference name="APP_NAME" />
+    <preference name="CUSTOM_URL_SCHEME" />
     <preference name="FACEBOOK_HYBRID_APP_EVENTS" default="false" />
     <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="5.13.0"/>
 
@@ -117,6 +118,7 @@
               <key>CFBundleURLSchemes</key>
               <array>
                 <string>fb$APP_ID</string>
+                <string>$CUSTOM_URL_SCHEME</string>
               </array>
             </dict>
           </array>
